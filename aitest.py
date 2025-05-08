@@ -35,8 +35,8 @@ logger = logging.getLogger(__name__)
 CONFIG = {
     'token': os.getenv('TELEGRAM_BOT_TOKEN', ''),
     'admin_id': int(os.getenv('ADMIN_ID', '')),
-    'required_channels': os.getenv('REQUIRED_CHANNELS', 'Freenethubz,megahubbots,Freenethubchannel').split(','),
-    'channel_links': os.getenv('CHANNEL_LINKS', 'https://t.me/Freenethubz,https://t.me/megahubbots,https://t.me/Freenethubchannel').split(',')
+    'required_channels': os.getenv('REQUIRED_CHANNELS', 'megahubbots').split(','),
+    'channel_links': os.getenv('CHANNEL_LINKS', 'https://t.me/megahubbots').split(',')
 }
 
 # MongoDB connection
